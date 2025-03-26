@@ -1,0 +1,1 @@
+# WearTrend-NM-project
