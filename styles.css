@@ -6,10 +6,12 @@ body {
     justify-content: center;
     height: 100vh;
     font-family: Arial, sans-serif;
-    background-image: url('background.jpg');
+    background-image: url('images_folder/background.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    margin: 0;
+    text-align: center;
 }
 
 .navbar {
@@ -92,4 +94,50 @@ body {
 .register-link {
     color: #8B4513;
     text-decoration: none;
+}
+
+.top-bar {
+    background-color: #754c29;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #f8f5f0;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    font-size: 16px;
+}
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 20px;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.btn {
+    background-color: #754c29;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
 }
